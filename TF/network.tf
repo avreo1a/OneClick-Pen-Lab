@@ -77,7 +77,7 @@ resource "aws_subnet" "private_subnet" {
 }
 
 
-#Creating an elastic IP(Static) assigned to the NAT
+#Creating an elastic IP(Static) assigned to the NAT, Since this is a testing enviorment theres really no need for a static IP, But in production it could be useful.
 resource "aws_eip" "nat_gateway_eip" {
   tags = {
     Name = "nat_gateway_eip"

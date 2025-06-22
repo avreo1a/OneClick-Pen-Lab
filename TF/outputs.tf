@@ -21,6 +21,11 @@ output "dvwa_public_ip" {
   value       = aws_instance.dvwa.public_ip
 }
 
+output "Elastic_IP" {
+  description = "Elastic IP for DVWA Instance"
+  value       = aws_eip.nat_gateway_eip.public_ip
+}
+
 
 
 #ACCESS TO SERVERS
