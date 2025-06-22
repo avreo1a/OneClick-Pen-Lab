@@ -6,6 +6,8 @@ Public Subnet
 Private Subnet 
     DVWA EC2 (TRGT 1)
     Other Vulnerable Boxes
+        Changes 1:
+            One Subnet
 
 
 Things to Deploy
@@ -15,4 +17,3 @@ VPC + Subnets
 Security Groups
 Kali EC2
 DVWA EC2
-IAM Roles
